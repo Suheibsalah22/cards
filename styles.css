@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+  /* header section */
+  header{
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header nav ul{
+    display: flex;
+
+  }
+  header nav li{
+    list-style-type: none;
+    padding: 0px 10px 0px 10px;
+  }
+  header nav a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+  }
+ /* ........ section 2........ */
+  img{
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+  }
+
+  .mainDiv{
+
+    display: flex;
+    height: 320px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  .mainDiv .leftDiv p{
+    width: 300px;
+    padding: 30px 0px 30px 0px;
+    color: gray;
+  }
+
+  .mainDiv .leftDiv h3{
+    color: #3B0E86;
+    font-size: 40px;
+    
+  }
+
+  .mainDiv .leftDiv h4{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  .mainDiv .leftDiv button{
+    width: 150px;
+    height: 40px;
+    /* margin-left: 10px; */
+    border: none;
+    border-radius: 10px;
+    background-color: #3B0E86;
+    color: white;
+  }
+  .mainCards{
+    margin: 50px 20px 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .card1{
+    background-color: #3B0E86;
+    color: white;
+    
+    height: 340px;
+  }
+  .cardTime{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .cardTime h3{
+    font-size: 12px;
+  }
+  .card1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+  }
+  .card1 h2{
+    padding: 10px;
+  }
+  .card1 p{
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  @media (max-width:480){
+    .mainCards{
+       margin-top: 230px;
+    }
+  }
+
+  @media (min-width:480) and(max-width:800){
+    .mainCards{
+       margin-top: 230px;
+    }
+  }
